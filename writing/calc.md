@@ -27,42 +27,42 @@ a)
 
 b)
 
-- Match or Mismatch:               #TODO
-- Left entry calculation:          #TODO
-- Above entry calculation:         #TODO
-- Diagonal entry calculation:      #TODO
-- Max score: 1 from the Diagonal   #TODO
+- Match or Mismatch:               A != T (mismatch)
+- Left entry calculation:           1 + (-1) = 0
+- Above entry calculation:         -2 + (-1) = -3
+- Diagonal entry calculation:      -1 + 0 = -1
+- Max score: 0 from the left entry
 
 c)
 
-- Match or Mismatch:               #TODO
-- Left entry calculation:          #TODO
-- Above entry calculation:         #TODO
-- Diagonal entry calculation:      #TODO
-- Max score: 1 from the Diagonal   #TODO
+- Match or Mismatch:               A != t (mismatch)
+- Left entry calculation:          -2 + (-1) = -3
+- Above entry calculation:          1 + (-1) = 0
+- Diagonal entry calculation:      -1 + 0 = -1
+- Max score: 0 from the above entry
 
 d)
 
-- Match or Mismatch:               #TODO
-- Left entry calculation:          #TODO
-- Above entry calculation:         #TODO
-- Diagonal entry calculation:      #TODO
-- Max score: 1 from the Diagonal   #TODO
+- Match or Mismatch:               T = T (match)
+- Left entry calculation:          0 + (-1) = -1
+- Above entry calculation:         0 + (-1) = -1
+- Diagonal entry calculation:      1 + 1 = 2
+- Max score: 2 from the Diagonal
 
 e)
 
-- Match or Mismatch:               #TODO
-- Left entry calculation:          #TODO
-- Above entry calculation:         #TODO
-- Diagonal entry calculation:      #TODO
-- Max score: 1 from the Diagonal   #TODO
+- Match or Mismatch:               A != G (mismatch)
+- Left entry calculation:          -3 + (-1) = -4
+- Above entry calculation:          0 + (-1) = -1
+- Diagonal entry calculation:      -2 + (0) = -2
+- Max score: -1 from the above entry
 
 f)
 
-- Match or Mismatch:               #TODO
-- Left entry calculation:          #TODO
-- Above entry calculation:         #TODO
-- Diagonal entry calculation:      #TODO
-- Max score: 1 from the Diagonal   #TODO
+- Match or Mismatch:               T != G (mismatch)
+- Left entry calculation:          -1 + (-1) = -2
+- Above entry calculation:          2 + (-1) = 1
+- Diagonal entry calculation:       0 + 0 = 0
+- Max score: 1 from the above entry
 
 (Did you remember to add your name to this Markdown file?)
