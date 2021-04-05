@@ -35,14 +35,48 @@ I believe that these given sequences are not closely related to each other, spec
 
 1. How much similarity exists between each of the sequences to the others?
 
-#TODO
+The provided DNA sequences were renamed for simplicity as depicted below:
+
+A/chicken/Viet_Nam/10/2005_(H5N1)_segment_4 -> labeled `DNA_A`
+
+A/China/GD01/2006_(H5N1)_segment_4 -> labeled `DNA_B`
+
+A/avian/Hong_Kong/719/2007_(H5N1)_segment_4 -> labeled `DNA_C`
+
+`DNA_A` and `DNA_B` sequences were extremely similar with a similarity percentage of 95.2%. `DNA_A` and `DNA_C` sequences were also extremely similar with a similarity percentage of 96%. `DNA_B` and `DNA_C` sequences were the most similar with a similarity percentage of 97.5%.
 
 2. Based on your results so far (which are too few to provide a comprehensive study), do you believe there is evidence that human adaptation is occurring in H5N1 viruses that might merit concern about human-to-human transmission in the near future?
 
-#TODO
+Based on the similarities between avian H5N1 viruses and strains of H5N1 in humans through these alignment studies, I believe that human-to-human transmission should be a concern related to this virus. With such close relationships between avian bird-flu strains, and human strains (specifically depicted with analysis of `DNA_B` and `DNA_C`) it is clear that the H5N1 virus is mutation to become more virulent and changing in modes of transmission. If sequences for birds and humans are very close, it is most likely that humans will soon be able to transmit H5N1 in a direct human contact scenario, rather than from an animal to human interaction. Viruses often mutate quickly to improve (their own) transmission. Evolutionarily speaking, it is the most advantageous for the H5N1 virus to change for human-to-human transmission.
 
 3. Statistics: What were the numbers of Lengths, Similarities, Gaps and Scores for each of your alignment tasks?
 
-#TODO
+**Alignment between DNA_A and DNA_B**
 
-(Did you remember to add your name to this Markdown file?)
+Length: 1776
+
+Similarity: 1690/1776 = 95.2%
+
+Gaps: 45/1776 = 2.5%
+
+Score: 8286.0
+
+**Alignment between DNA_A and DNA_C**
+
+Length: 1751
+
+Similarity: 1681/1751 = 96.0%
+
+Gaps: 20/1751 = 1.1%
+
+Score: 9379.0
+
+**Alignment between DNA_B and DNA_C**
+
+Length: 1776
+
+Similarity: 1731/1776 = 97.5%
+
+Gap: 25/1776 = 1.4%
+
+Score: 9703.0

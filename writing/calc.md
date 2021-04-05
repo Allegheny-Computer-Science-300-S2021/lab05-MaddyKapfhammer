@@ -65,4 +65,3 @@ f)
 - Diagonal entry calculation:       0 + 0 = 0
 - Max score: 1 from the above entry
 
-(Did you remember to add your name to this Markdown file?)
